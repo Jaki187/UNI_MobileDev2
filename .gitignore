@@ -1,0 +1,39 @@
+#
+# Standard .NET / C# Visual Studio / Rider Ignore
+#
+
+## Binaries and Object files
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.suo
+*.user
+*.bak
+*.ncb
+*.scc
+*.vspscc
+
+## Rider / JetBrains specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## Packages
+# nuget package directory
+[Pp]ackages/
+# The project output directory is uploaded to the nuget server, and is not needed
+# for the version control system
+/Project_Output/
+
+## .NET MAUI specific files
+# Temporary files used during MAUI building and deployment
+MauiCheckup/
+.maui/**/*.ipa
+**/*.apk
+**/*.app
+**/*.aab
+**/*.xap
+*.log
